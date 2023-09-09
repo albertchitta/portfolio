@@ -43,7 +43,7 @@ const ExperienceCard = ({ experience }) => (
 )
 
 ExperienceCard.propTypes = {
-  experience: PropTypes.object
+  experience: PropTypes.object,
 }
 
 const Experience = () => {
