@@ -25,6 +25,8 @@ import {
   threejs,
 } from "../assets";
 
+import { linkedin, github, instagram, twitter, facebook, } from "../assets/social";
+
 const navLinks = [
   {
     id: "about",
@@ -262,4 +264,32 @@ const projects = [
   },
 ];
 
-export { navLinks, services, technologies, experiences, testimonials, projects };
+const socialLinks = [
+  {
+    name: "linkedin",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/albertchittaphong/",
+  },
+  {
+    name: "github",
+    icon: github,
+    link: "https://github.com/albertchitta",
+  },
+  {
+    name: "instagram",
+    icon: instagram,
+    link: "https://www.instagram.com/albertwc_/?hl=en",
+  },
+  {
+    name: "twitter",
+    icon: twitter,
+    link: "https://twitter.com/albertwc_",
+  },
+  {
+    name: "facebook",
+    icon: facebook,
+    link: "https://www.facebook.com/Albert.Chittaphong/",
+  },
+]
+
+export { navLinks, services, technologies, experiences, testimonials, projects, socialLinks };
