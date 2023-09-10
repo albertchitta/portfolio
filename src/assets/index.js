@@ -1,7 +1,6 @@
 // import logo from "./logo.svg";
 import logo from "./favicon.ico";
 import backend from "./backend.png";
-import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -22,10 +21,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import axiom from "./company/axiom.png";
+import nss from "./company/nss.png";
+import nasa from "./company/nasa.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -34,7 +32,6 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
-  creator,
   mobile,
   web,
   github,
@@ -53,10 +50,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  axiom,
+  nss,
+  nasa,
   carrent,
   jobit,
   tripguide,
