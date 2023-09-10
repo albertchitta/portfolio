@@ -2,13 +2,13 @@ import { socialLinks } from "../constants";
 
 const Footer = () => {
   return (
-    <footer class="bg-black-100 rounded-lg shadow dark:bg-gray-900">
-      <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div class="flex items-center flex-col">
+    <footer id="resume" className="bg-black-100 rounded-lg shadow dark:bg-gray-900">
+      <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div className="flex items-center flex-col">
           <a
             href="Albert_Chittaphong_Resume.pdf"
             download
-            className="bg-tertiary border-2 rounded-full py-3 px-6 hover:bg-white hover:text-black transition ease-in-out duration-300"
+            className="mt-4 bg-tertiary border-2 rounded-full py-3 px-6 hover:bg-white hover:text-black transition ease-in-out duration-300"
           >
             Download Resume
           </a>
@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
 
         {/* TODO: Add URL here */}
-        <span class="flex justify-center mt-6 block text-sm text-gray-500 sm:text-center dark:text-gray-400">Copyright © 2023&nbsp;<a href="#/" class="hover:underline">Albert Chittaphong</a>. All Rights Reserved.</span>
+        <span className="flex justify-center mt-6 block text-sm text-gray-500 sm:text-center dark:text-gray-400">Copyright © 2023&nbsp;<a href="#/" class="hover:underline">Albert Chittaphong</a>. All Rights Reserved.</span>
       </div>
     </footer>
   )

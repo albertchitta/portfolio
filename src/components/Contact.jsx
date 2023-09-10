@@ -62,6 +62,7 @@ const Contact = () => {
       >
         <p className={`${styles.sectionSubText}`}>Get in touch</p>
         <h3 className={`${styles.sectionHeadText}`}>Contact</h3>
+        <p className="mt-3 text-secondary, text-[17px] max-w-3xl leading-[30px]">Have any questions? I&apos;d love to hear from you.</p>
 
         <form
           ref={formRef}
