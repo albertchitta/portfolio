@@ -7,23 +7,28 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
   docker,
   axiom,
   nss,
   nasa,
-  carrent,
-  jobit,
-  tripguide,
+  vocab,
+  teamroster,
+  bearwatcher,
+  todo,
+  sortinghat,
   threejs,
+  postgresql,
+  sass,
+  linkedin,
+  github,
+  instagram,
+  twitter,
+  facebook,
 } from "../assets";
-
-import { linkedin, github, instagram, twitter, facebook, } from "../assets/social";
 
 const navLinks = [
   {
@@ -85,8 +90,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "SASS",
+    icon: sass,
   },
   {
     name: "Tailwind CSS",
@@ -97,23 +102,23 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
     name: "Three JS",
     icon: threejs,
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+  {
+    name: "Docker",
     icon: docker,
   },
 ];
@@ -185,58 +190,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Vocab-YOU-lary",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "An application that allows users to Create, Read, Update, and Delete (CRUD) vocabulary cards, authenticate with Google, and filter.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {
@@ -244,8 +207,102 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: vocab,
+    source_code_link: "https://github.com/albertchitta/Vocab-YOU-lary",
+    website: "https://awc-vocab-you-lary.netlify.app/",
+    video: "https://www.loom.com/embed/6a192ddbd51d4b2ca6433a3c9a430467?sid=94d9980e-6ef5-413a-8922-52c3e004de31",
+  },
+  {
+    name: "Team Roster",
+    description:
+      "Create a team roster or your starting line-up with your favorite players from the Los Angeles Lakers!",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: teamroster,
+    source_code_link: "https://github.com/albertchitta/ASSIGNMENT-Team-Roster-react",
+    website: "https://awc-team-roster.netlify.app/",
+    video: "https://www.loom.com/embed/b466cb8a2c6349f89d67e1dfe6863db8?sid=aad18431-055a-46da-aa0c-2abc5da5be4e",
+  },
+  {
+    name: "Bear Watcher",
+    description:
+      "Each year between July and September, brown bears in the Katmai National Park congregate along the Brooks River. This river is one of the main rivers that Sockeye Salmon swim up to spawn. The brown bears wait in the shallows of the river and catach the salmon as they jump over rocks.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bearwatcher,
+    source_code_link: "https://github.com/albertchitta/ASSIGNMENT-Bear-Watcher",
+    website: "https://awc-bear-watcher.netlify.app/",
+    video: "https://www.loom.com/embed/ee9a427632d64b2c925d6337baf486d4?sid=5ec30378-2cd2-4306-b7ce-f53773d4225c",
+  },
+  {
+    name: "YOU-DO",
+    description:
+      "A to-do list using React.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: todo,
+    source_code_link: "https://github.com/albertchitta/YOU-DO-App",
+    website: "https://awc-you-do.netlify.app/",
+    video: "https://www.loom.com/embed/6aa0e77349494e449a6e20966d4e81bc?sid=1d4ef744-dbd0-45d3-ae5d-354eca60a6c9",
+  },
+  {
+    name: "Sorting Hat",
+    description:
+      "In the Sorting Hat project, the users will enter their name and will be sorted into a random house. The user can filter the students by house and can even expel students. Once students are expelled, they will be removed from the First Years and into Voldemort's Army. This project is focused on creating an array of objects and printing them to the DOM. The project utilizes loops, event listeners, and filter buttons all built with functions.",
+    tags: [
+      {
+        name: "javascript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sortinghat,
+    source_code_link: "https://github.com/albertchitta/sorting-hat",
+    website: "https://awc-sorting-hat.netlify.app/",
+    video: "https://www.loom.com/embed/c8d85532094a4b48b69199ee2a240804?sid=5bf034de-8ffa-4b0e-967c-71c8cdd86b88",
   },
 ];
 

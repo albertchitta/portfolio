@@ -8,7 +8,7 @@ const Footer = () => {
           <a
             href="Albert_Chittaphong_Resume.pdf"
             download
-            className="mt-4 bg-tertiary border-2 rounded-full py-3 px-6 hover:bg-white hover:text-black transition ease-in-out duration-300"
+            className="mt-4 bg-tertiary border-2 rounded-full py-3 px-6 hover:bg-white hover:text-black transition ease-in-out duration-300 text-white"
           >
             Download Resume
           </a>

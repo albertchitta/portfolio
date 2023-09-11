@@ -62,7 +62,7 @@ const Contact = () => {
       >
         <p className={`${styles.sectionSubText}`}>Get in touch</p>
         <h3 className={`${styles.sectionHeadText}`}>Contact</h3>
-        <p className="mt-3 text-secondary, text-[17px] max-w-3xl leading-[30px]">Have any questions? I&apos;d love to hear from you.</p>
+        <p className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">Have any questions? I&apos;d love to hear from you.</p>
 
         <form
           ref={formRef}
@@ -70,7 +70,7 @@ const Contact = () => {
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span classname="text-white font-medium mb-4">Your Name</span>
+            <span className="text-white font-medium mb-4">Your Name</span>
             <input
               type="text"
               name="name"
@@ -82,7 +82,7 @@ const Contact = () => {
           </label>
 
           <label className="flex flex-col">
-            <span classname="text-white font-medium mb-4">Your Email</span>
+            <span className="text-white font-medium mb-4">Your Email</span>
             <input
               type="email"
               name="email"
@@ -94,7 +94,7 @@ const Contact = () => {
           </label>
 
           <label className="flex flex-col">
-            <span classname="text-white font-medium mb-4">Your Message</span>
+            <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
               rows="7"
               name="message"
